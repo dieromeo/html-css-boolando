@@ -97,6 +97,7 @@ header li {
 
 .image-container:hover .main-image {
     opacity: 0;
+    transition: 0.3s;
 }
 
 .main-image {
