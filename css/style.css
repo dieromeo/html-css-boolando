@@ -104,29 +104,25 @@ header li {
     position: absolute;
 }
 
-main li {
-    list-style-type: none;
-}
-
-li.marchio,
-li.price {
+.marchio,
+.price {
     font-size: 10px;
 }
 
-li.product-name {
+.product-name {
     font-size: 12px;
 }
 
-li.price {
+.price {
     display: flex;
 }
 
-li.price :first-child {
+.price :first-child {
     color: red;
     margin-right: 5px;
 }
 
-li.price :nth-child(2) {
+.price :nth-child(2) {
     text-decoration: line-through;
 }
 
